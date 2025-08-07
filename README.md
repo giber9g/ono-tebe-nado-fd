@@ -1,1 +1,2 @@
-В данном проекте я проробатывал свои навыки верстки
+
+https://github.com/giber9g/ono-tebe-nado-fd
