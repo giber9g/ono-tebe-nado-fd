@@ -16,11 +16,9 @@
     gap: 32px;
     padding-right: 36px;
 }
-
-.header__links-list-item {
-    list-style: circle;
+.active {
+    list-style: none;
 }
-
 .address {
     width: 240px;
     font-family: "Raleway" serif;
