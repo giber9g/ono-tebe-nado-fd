@@ -11,22 +11,14 @@
 
 .header__links-list ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: circle;
     gap: 32px;
     padding-right: 36px;
 }
-.active {
-    list-style: none;
+.header__links-list-item {
+    list-style: circle; 
 }
-.address {
-    width: 240px;
-    font-family: "Raleway" serif;
-    justify-self: end;
-    font-style: normal;
-    line-height: 24.3px;
-}
-
 .active {
     list-style: none;
     text-decoration: none;
@@ -35,7 +27,6 @@
 .logo img {
     width: 149px;
     height: 105px;
-    ;
 }
 
 
@@ -49,7 +40,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 .cover {
@@ -61,10 +51,13 @@
     padding: 165px 50px 140px 50px;
     font-size: 100px;
     letter-spacing: 30px;
+    position: relative;
+    z-index: 2;
 }
 
 .cover__title span {
     display: block;
+    
 }
 
 .aligned-text_center {
@@ -81,6 +74,8 @@
     justify-content: space-between;
     gap: 104px;
     padding: 0 50px;
+    position: relative;
+    z-index: 2;
 }
 
 .description p {
@@ -150,7 +145,10 @@
     opacity: 0.6;
     z-index: 1;
 }
-
+.card h3,p{
+    position: relative;
+    z-index: 2;
+}
 .card {
     padding: 46px 40px;
     display: flex;
@@ -166,32 +164,28 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    justify-content: space-between;
     display: flex;
-
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
     width: 334px;
-    height: 596px;
+    min-height: 596px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    justify-content: space-between;
     display: flex;
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
     width: 334px;
-    height: 596px;
+    min-height: 596px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    justify-content: space-between;
     display: flex;
 }
 
@@ -256,7 +250,7 @@
 .address {
     width: 264px;
     font-size: 18px;
-    font-family: "Raleway" serif;
+    font-family: "Raleway", serif;
     justify-self: end;
     font-style: normal;
     line-height: 24.3px;
