@@ -16,12 +16,17 @@
     gap: 32px;
     padding-right: 36px;
 }
+
 .header__links-list-item {
-    list-style: circle; 
+    list-style: circle;
 }
+
 .active {
-    list-style: none;
     text-decoration: none;
+}
+
+.li_active {
+    list-style: none;
 }
 
 .logo img {
@@ -48,7 +53,7 @@
 }
 
 .cover__title h1 {
-    padding: 165px 50px 140px 50px;
+    padding: 180px 20px 110px 50px;
     font-size: 100px;
     letter-spacing: 30px;
     position: relative;
@@ -57,9 +62,11 @@
 
 .cover__title span {
     display: block;
-    
-}
 
+}
+.aligned-text_left{
+    text-align: left;
+}
 .aligned-text_center {
     text-align: center;
 }
@@ -73,7 +80,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 104px;
-    padding: 0 50px;
+    padding: 18px 50px;
     position: relative;
     z-index: 2;
 }
@@ -111,10 +118,12 @@
     color: white;
     text-transform: uppercase;
 }
-.card__title{
+
+.card__title {
     text-decoration: underline;
 }
-.card-link{
+
+.card-link {
     font-size: 20px;
     text-decoration: none;
 }
@@ -145,48 +154,43 @@
     opacity: 0.6;
     z-index: 1;
 }
-.card h3,p{
+
+.card h3,
+.card p {
     position: relative;
     z-index: 2;
 }
+
 .card {
     padding: 46px 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 334px;
+    min-height: 596px;
+    position: relative;
+    display: flex;
 }
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    width: 334px;
-    min-height: 596px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
-    display: flex;
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    width: 334px;
-    min-height: 596px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
-    display: flex;
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    width: 334px;
-    min-height: 596px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
-    display: flex;
 }
 
 /* Section about */
